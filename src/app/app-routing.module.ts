@@ -24,7 +24,8 @@ export const routes: Routes = [
   {path: 'feed', component: FeedComponent},
   {path: 'search', component: SearchComponent},
   //add the 'profile' route
-  {path: '**', component: HomeComponent},
+  {path: 'profile', component: ProfileComponent},
+  { path: '**', component: HomeComponent }
 ];
 
 @NgModule({
